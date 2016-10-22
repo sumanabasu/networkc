@@ -9,7 +9,7 @@ setup(name='networkc',
       license='MIT',
       packages=['networkc'],
       install_requires=[
-          'networkX', 'pandas'
+          'networkX', 'pandas', 'matplotlib'
       ],
       zip_safe=False,
       entry_points = {
