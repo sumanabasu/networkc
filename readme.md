@@ -19,7 +19,7 @@ This library -
 To test this library use the following command on terminal :
 `python networkc/networkc.test.py`
 
-##Command Line Instruction
+##Command Line Instructions
 
 * `-d` `--degree`
    Choose this option to calculate degree centrality
@@ -35,4 +35,4 @@ To test this library use the following command on terminal :
 
 ##Example
 
-* networkc -d -c -b edges.csv
+* `networkc -d -c -b edges.csv`
