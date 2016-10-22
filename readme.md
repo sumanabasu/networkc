@@ -36,3 +36,9 @@ To test this library use the following command on terminal :
 ##Example
 
 * `networkc -d -c -b edges.csv`
+
+##Output Format
+
+For each centrality measure, output will be a two column table:
+
+| Node ID | Centrality Measure |
