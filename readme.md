@@ -29,7 +29,7 @@ To test this library use the following command on terminal :
    Choose this option to calculate closeness centrality
    Default Value = "False"
 
-* `-b` `--degree`
+* `-b` `--betweenness`
    Choose this option to calculate betweenness centrality
    Default Value = "False"
 
@@ -39,6 +39,7 @@ To test this library use the following command on terminal :
 
 ##Output Format
 
-For each centrality measure, output will be a two column table:
+For each centrality measure, output will be a two column table on command prompt:
 
-| Node ID | Centrality Measure |
+* First column is node ID
+* Second Column is centrality measure
