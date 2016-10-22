@@ -29,11 +29,14 @@ def calcCentrality(G, d, c, b):
 
 def writetoCSV(d, c, b, dcD, dcC, dcB):
     if d == True:
-        dcD.to_csv('degree_centrality.csv', index=False, header=False)
+        print "Degree Centrality :"
+        print dcD.to_csv(index=False, header=False)
     if c == True:
-        dcD.to_csv('closeness_centrality.csv', index=False, header=False)
+        print "Closeness Centrality :"
+        print dcD.to_csv(index=False, header=False)
     if b == True:
-        dcB.to_csv('betweenness_centrality.csv', index=False, header=False)
+        print "Betweenness Centrality :"
+        print dcB.to_csv(index=False, header=False)
 
 
 def main():
