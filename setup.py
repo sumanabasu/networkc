@@ -11,4 +11,8 @@ setup(name='networkc',
       install_requires=[
           'networkX', 'pandas'
       ],
-      zip_safe=False)
+      zip_safe=False,
+      entry_points = {
+      'console_scripts':['networkc=networkc.networkc:main']
+	  }
+      )
